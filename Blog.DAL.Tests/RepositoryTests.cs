@@ -24,7 +24,7 @@ namespace Blog.DAL.Tests
             // act
             var result = repository.GetAllPosts();
             // assert
-            Assert.AreEqual(3, result.Count());
+            Assert.AreEqual(0, result.Count());
         }
     }
 }
